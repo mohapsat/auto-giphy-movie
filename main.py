@@ -7,7 +7,7 @@ import random
 
 # Search Giphy
 # (optional) convert to argv
-search_expression = "pizza cat"
+search_expression = "godzilla"
 
 
 rating = 'PG'        # Y, G, PG, PG-13, and R # Y is strictly illustrated content only, ie cartoons.
@@ -24,7 +24,7 @@ VideoFileClip.reH = lambda clip:  clip.resize(height=H)
 
 # title screen
 
-title_clip_tmp = (TextClip(search_expression.title(), font="fonts/Mini_Square.ttf", fontsize=50, color='white'))
+title_clip_tmp = (TextClip(search_expression.title(), font="assets/fonts/Mini_Square.ttf", fontsize=50, color='white'))
 title_clip_tmp = (title_clip_tmp.set_pos('center'))
 
 
@@ -136,7 +136,7 @@ https://soundcloud.com/shaurya-m
 
 # credits
 the_end = (TextClip(credits_text,
-                    fontsize=30, interline=15, bg_color='black', font="fonts/Mini_Square.ttf",
+                    fontsize=30, interline=15, bg_color='black', font="assets/fonts/Mini_Square.ttf",
                     size=(W, H), color='white').set_pos(('center', 'center')).set_duration(4).fadein(0.5))
 
 # Main sequence
@@ -152,7 +152,7 @@ main_vid.mask.get_frame = lambda t: circle(screensize=(W,H),
 
 # pick a random audio clip from a list of clips
 
-audio_clips = ['m0.mp3', 'titan0346_8bit_invaders.wav', 'titan0346_cyberpunk.wav']
+audio_clips = ['assets/music/m0.mp3', 'assets/music/titan0346_8bit_invaders.wav', 'assets/music/titan0346_cyberpunk.wav']
 
 r_audio_id = random.randint(0, len(audio_clips)-1)
 r_audio_clip = audio_clips[r_audio_id]
@@ -164,10 +164,18 @@ music_loop = afx.audio_loop(AudioFileClip(r_audio_clip).fx(afx.volumex, 0.2), du
 
 video_with_audio = main_vid.set_audio(music_loop)
 
+
+filename_prefix = []
+
+filename_suffix = [' compilation', ' collection', ' catalog']
+
+
+
+
 # video_with_audio.preview()
 try:
 
-    video_with_audio.write_videofile(f"v/{search_expression}.mp4", fps=25, bitrate="10000k", audio_bitrate='1000k',
+    video_with_audio.write_videofile(f"out/{search_expression}.mp4", fps=25, bitrate="10000k", audio_bitrate='1000k',
                                  audio=True,
                                  codec='libx264',          # libx264, mpeg4
                                  audio_codec='aac',
