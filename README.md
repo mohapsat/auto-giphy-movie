@@ -6,11 +6,17 @@ stitches it all together into a movie!
 Uses [MoviePy](https://zulko.github.io/moviepy/) and [GiphyAPI](https://github.com/Giphy/GiphyAPI) under the hood.
 
 ## Preview
+
+`python main.py -s godzilla -r 3` 
+
+will produce a short movie with 3 gifs:
+
 ![Gozilla-AutoMovie](https://raw.githubusercontent.com/mohapsat/auto-giphy-movie/master/godzilla-automovie.gif?token=ABM6UP77ODRS63WNRWXUGOLAVGGUE)
 
+see more examples here [youtube playlist](https://www.youtube.com/playlist?list=PLC1K_ZG1k61h2diUlgX_m84QnaaBwJFIE)
 
-
-Follow me on twitter [@mohapsat](https://twitter.com/mohapsat)
+---
+[x] Follow me on twitter [@mohapsat](https://twitter.com/mohapsat)
 
 ## Pre-requisites and Installation
 - Create config.py and add API_KEY = '<GIPHY-API-KEY>'
@@ -45,4 +51,8 @@ get more gifs back and use that in your movie.
 
 MoviePy depends on the software FFMPEG for video reading and writing. You don’t need to worry about that, as FFMPEG should be automatically downloaded/installed by ImageIO during your first use of MoviePy (it takes a few seconds).
 
+---
 
+[x] Support Open Source and [MoviePy](https://github.com/Zulko/moviepy)
+
+---
