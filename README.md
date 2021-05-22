@@ -11,6 +11,8 @@ Uses [MoviePy](https://zulko.github.io/moviepy/) and [GiphyAPI](https://github.c
 
 will produce a short movie with 3 gifs:
 
+> Background music was provided by my 11 year old, please checkout his other creations [here](https://soundcloud.com/shaurya-m)
+
 ![Gozilla-AutoMovie](https://github.com/mohapsat/auto-giphy-movie/blob/master/godzilla-automovie.gif?raw=true)
 
 see more examples here [youtube playlist](https://www.youtube.com/playlist?list=PLC1K_ZG1k61h2diUlgX_m84QnaaBwJFIE)
