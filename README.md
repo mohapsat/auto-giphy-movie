@@ -3,7 +3,10 @@
 AutoGiphyMovie lets you search giphy for gifs, converts them to videos, attach a soundtrack and 
 stitches it all together into a movie!
 
-Uses [MoviePy](https://zulko.github.io/moviepy/) and [GiphyAPI](https://github.com/Giphy/GiphyAPI) under the hood.
+Uses 
+<a href="https://zulko.github.io/moviepy/" target="_blank">MoviePy</a> and <a href="https://github.com/Giphy/GiphyAPI" target="_blank">GiphyAPI</a> under the hood.
+
+ 
 
 ## Preview
 
@@ -11,16 +14,13 @@ Uses [MoviePy](https://zulko.github.io/moviepy/) and [GiphyAPI](https://github.c
 
 will produce a short movie with 3 gifs:
 
-> Background music was provided by my 11 year old, please checkout his other creations [here](https://soundcloud.com/shaurya-m)
+> Background music was provided by my 11 year old, please checkout his other creations 
+><a href="https://soundcloud.com/shaurya-m" target="_blank">here</a>
 
-![Gozilla-AutoMovie](https://github.com/mohapsat/auto-giphy-movie/blob/master/godzilla-automovie.gif?raw=true)
+<img src="https://github.com/mohapsat/auto-giphy-movie/blob/master/godzilla-automovie.gif?raw=true" alt="Gozilla-AutoMovie">
 
-see more examples here [youtube playlist](https://www.youtube.com/playlist?list=PLC1K_ZG1k61h2diUlgX_m84QnaaBwJFIE)
-
-![Godzilla](https://www.youtube.com/watch?v=f7KbrP1YFgA&list=PLC1K_ZG1k61h2diUlgX_m84QnaaBwJFIE)
-
-![Pizza Cat](https://www.youtube.com/watch?v=8rGWWFWCd7w&list=PLC1K_ZG1k61h2diUlgX_m84QnaaBwJFIE&index=9)
-
+see more examples here 
+<a href="https://www.youtube.com/playlist?list=PLC1K_ZG1k61h2diUlgX_m84QnaaBwJFIE" target="_blank">Youtube playlist</a>
 
 ---
 [x] Follow me on twitter [@mohapsat](https://twitter.com/mohapsat)
