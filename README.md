@@ -5,6 +5,11 @@ stitches it all together into a movie!
 
 Uses [MoviePy](https://zulko.github.io/moviepy/) and [GiphyAPI](https://github.com/Giphy/GiphyAPI) under the hood.
 
+## Preview
+![Gozilla-AutoMovie](https://raw.githubusercontent.com/mohapsat/auto-giphy-movie/master/godzilla-automovie.gif?token=ABM6UP77ODRS63WNRWXUGOLAVGGUE)
+
+
+
 Follow me on twitter [@mohapsat](https://twitter.com/mohapsat)
 
 ## Pre-requisites and Installation
