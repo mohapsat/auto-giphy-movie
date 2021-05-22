@@ -11,7 +11,7 @@ Uses [MoviePy](https://zulko.github.io/moviepy/) and [GiphyAPI](https://github.c
 
 will produce a short movie with 3 gifs:
 
-![Gozilla-AutoMovie](https://raw.githubusercontent.com/mohapsat/auto-giphy-movie/master/godzilla-automovie.gif?token=ABM6UP77ODRS63WNRWXUGOLAVGGUE)
+![Gozilla-AutoMovie](https://github.com/mohapsat/auto-giphy-movie/blob/master/godzilla-automovie.gif?raw=true)
 
 see more examples here [youtube playlist](https://www.youtube.com/playlist?list=PLC1K_ZG1k61h2diUlgX_m84QnaaBwJFIE)
 
