@@ -6,7 +6,6 @@ stitches it all together into a movie!
 Uses 
 <a href="https://zulko.github.io/moviepy/" target="_blank">MoviePy</a> and <a href="https://github.com/Giphy/GiphyAPI" target="_blank">GiphyAPI</a> under the hood.
 
- 
 
 ## Preview
 
@@ -59,7 +58,8 @@ get more gifs back and use that in your movie.
 MoviePy depends on the software FFMPEG for video reading and writing. You don’t need to worry about that, as FFMPEG should be automatically downloaded/installed by ImageIO during your first use of MoviePy (it takes a few seconds).
 
 ---
-
-[x] Support Open Source and [MoviePy](https://github.com/Zulko/moviepy)
+ <a href="https://www.buymeacoffee.com/3RBKdF0h9" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+ 
+Please support open source and [MoviePy](https://github.com/Zulko/moviepy)
 
 ---
