@@ -62,4 +62,9 @@ MoviePy depends on the software FFMPEG for video reading and writing. You don’
  
 Please support open source and [MoviePy](https://github.com/Zulko/moviepy)
 
+
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/mohapsat/auto-giphy-movie.svg)](https://starchart.cc/mohapsat/auto-giphy-movie)
+
 ---
